@@ -10,7 +10,7 @@ $logo-image-box-width = 46px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--background-color);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4));
   padding-top: $scroll-progress-bar-height;
 
   hover-style(false, 0, 0);
@@ -76,7 +76,7 @@ $logo-image-box-width = 46px;
       }
 
       .logo-title {
-        font-size: $logo-title-font-size;
+        font-size: $logo-title-font-size * 1.4;
         font-weight: bold;
         letter-spacing: 1px;
         line-height: 1;
@@ -111,7 +111,8 @@ $logo-image-box-width = 46px;
             float: left;
             position: relative;
             margin-left: 30px;
-            font-size: 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
             cursor: pointer;
             color: var(--default-text-color);
 
